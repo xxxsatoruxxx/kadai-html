@@ -6,17 +6,23 @@ body {
 header {
   background-color: #ffcccc;
   max-width: 1000px;
+  margin: 0 auto;
+}
+
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 #main {
-  float: left;
   width: 700px;
   height: 440px;
   background-color: #ccffcc;
 }
 
 #menu {
-  float: left;
   width: 300px;
   height: 440px;
   background-color: #ccccff;
@@ -25,5 +31,7 @@ header {
 footer {
   height: 100%;
   width: 1000px;
+  display: flex;
   background-color: #ffccff;
+  margin: 0 auto;
 }
